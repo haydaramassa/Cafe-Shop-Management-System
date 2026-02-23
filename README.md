@@ -38,20 +38,18 @@ Data is stored in a MySQL database (managed via phpMyAdmin).
     - Print Details (prints selected receipt details)
     - Print All Receipts
 - **Inventory**:
-  - Add / update / delete products
+  - Add / update / clear / delete products
   - Stock, price, status, type
   - Import product images
 - **Menu & Orders**:
   - Product cards with images
   - Add items with quantities to cart
-- **Payments & Receipts**:
-  - Payment with total/amount/change
-  - Generate receipt and **print**
+  - Payments & Receipts:
+      - Payment with total/amount/change
+      - Generate receipt and **print**
+      - Delete an order **Remove**
 - **Customers**:
   - View customers served with totals, date, cashier
-- **Receipts Archive / History**:
-  - Browse old receipts
-  - View receipt details and **print** (single or all)
 
 ---
 
