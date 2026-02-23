@@ -29,7 +29,7 @@ Data is stored in a MySQL database (managed via phpMyAdmin).
         - Cashier
     - Receipt Details section:
      - Shows Cashier name
-    - Details table columns:
+     - Details table columns:
         - Customer ID
         - Type
         - Qty
