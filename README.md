@@ -173,3 +173,32 @@ Stores monthly/period summary shown in dashboard.
 
 
 ---
+## Screenshots
+
+### Login
+![Login](login.png)
+
+### Sign Up
+![Sign Up](sign%20up%20registration.png)
+
+### Forgot Password
+![Forgot Password - Step 1](forgotpassword1.png)
+![Forgot Password - Step 2](forgotpassword2.png)
+
+### Dashboard
+![Dashboard](dashboard.png)
+
+### Inventory
+![Inventory](inventory.png)
+
+### Menu / Order
+![Menu](menu.png)
+
+### Customers
+![Customers](customers.png)
+
+### Receipts Archive / History
+![Receipts Archive / History](receipt%20and%20history.png)
+
+### Reset / Close Period
+![Reset / Close Period](reset%20button.png)
