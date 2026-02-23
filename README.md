@@ -10,9 +10,33 @@ Data is stored in a MySQL database (managed via phpMyAdmin).
 
 - **Authentication**: Login / Register + forgot password.
 - **Dashboard**:
-  - Sales & customers charts
-  - Summary cards (customers, income, etc.)
-  - Period reset / close and access to receipts archive
+  - Summary cards:
+    - Number of Customers
+    - Today’s Income
+    - Total Income
+    - Number of Sold Products
+  - Charts:
+    - Income’s Chart (Total Income per Day)
+    - Customers’ Chart (Number of Receipts per Day)
+  - Actions:
+    - Reset / Close Period
+    - Receipts Archive / History (Archive of Receipts):
+      - Receipts List / Transactions table columns:
+        - Receipt ID
+        - Customer ID
+        - Date
+        - Total
+        - Cashier
+    - Receipt Details section:
+     - Shows Cashier name
+    - Details table columns:
+        - Customer ID
+        - Type
+        - Qty
+        - Price
+  - Printing:
+    - Print Details (prints selected receipt details)
+    - Print All Receipts
 - **Inventory**:
   - Add / update / delete products
   - Stock, price, status, type
