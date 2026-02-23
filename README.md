@@ -85,11 +85,9 @@ If you have an `.sql` export, import it using phpMyAdmin for fastest setup.
 
 ## How to Run
 
-### Option A: Run from NetBeans (recommended)
+### Run from NetBeans (recommended)
 1. Open the project in NetBeans.
 2. Let Maven download dependencies.
 3. Run the main class: `App.java`
 
-### Option B: Build with Maven
-```bash
-mvn clean package
+
