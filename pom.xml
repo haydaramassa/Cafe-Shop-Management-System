@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany</groupId>
+    <artifactId>cafeShopManagementSystem</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>25</maven.compiler.release>
+        <javafx.version>25.0.2</javafx.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.jensd</groupId>
+            <artifactId>fontawesomefx-commons</artifactId>
+            <version>9.1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>de.jensd</groupId>
+            <artifactId>fontawesomefx-fontawesome</artifactId>
+            <version>4.7.0-9.1.2</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.8</version>
+                <configuration>
+                    <mainClass>com.mycompany.cafeshopmanagementsystemtest.App</mainClass>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <compilerArgs>
+                        <arg>--enable-preview</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <name>cafeShopManagementSystem</name>
+</project>
